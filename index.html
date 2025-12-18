@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>NapalaDesk — удалённая помощь</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f5f7;
+      color: #111827;
+    }
+    .wrap {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 24px 16px 40px;
+    }
+    h1 {
+      font-size: 26px;
+      margin-bottom: 4px;
+    }
+    h2 {
+      font-size: 20px;
+      margin-top: 20px;
+      margin-bottom: 6px;
+    }
+    p {
+      margin: 6px 0;
+      line-height: 1.5;
+    }
+    .card {
+      background: #fff;
+      border-radius: 12px;
+      padding: 16px 18px;
+      box-shadow: 0 4px 12px rgba(15,23,42,0.06);
+      margin-top: 16px;
+    }
+    .btn-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 10px;
+    }
+    .btn {
+      display: inline-block;
+      padding: 10px 14px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 500;
+      border: 1px solid #e5e7eb;
+      background: #fff;
+      color: #111827;
+    }
+    .btn-primary {
+      background: #2563eb;
+      border-color: #2563eb;
+      color: #fff;
+    }
+    .note {
+      font-size: 13px;
+      color: #6b7280;
+      margin-top: 8px;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>NapalaDesk</h1>
+    <p>Страница для клиентов: здесь можно скачать программу для удалённой помощи.</p>
+
+    <div class="card">
+      <h2>Как это работает</h2>
+      <p>1. Скачиваете NapalaDesk для своей системы.</p>
+      <p>2. Запускаете и отправляете мне ID и пароль.</p>
+      <p>3. Я подключаюсь и помогаю с 1С и другими задачами.</p>
+    </div>
+
+    <div class="card">
+      <h2>Скачать NapalaDesk</h2>
+      <div class="btn-row">
+        <a class="btn-primary btn" href="URL_WIN_64">Windows 64‑бит</a>
+        <a class="btn btn" href="URL_WIN_32">Windows 32‑бит</a>
+        <a class="btn btn" href="URL_MACOS">macOS</a>
+      </div>
+      <p class="note">Ссылки ведут на архив/установщик, который я подготовила. Если что‑то непонятно — просто напишите мне.</p>
+    </div>
+
+    <div class="card">
+      <h2>Связаться со мной</h2>
+      <p>Напишите удобным способом, и мы согласуем время подключения:</p>
+      <p>Telegram: <b>@ТВОЙ_НИК</b></p>
+      <p>Почта: <b>you@example.com</b></p>
+    </div>
+  </div>
+</body>
+</html>
